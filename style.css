@@ -74,8 +74,8 @@ body{
 .main-dp {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Esto centrará verticalmente los elementos hijos */
-  min-height: 100vh; /* Asegura que el main ocupa al menos toda la altura de la ventana */
+  align-items: center; 
+  min-height: 100vh; 
 }
 
 h1, h2{
@@ -99,7 +99,7 @@ h1, p{
 }
 
 .info li {
-  margin-bottom: 10px; /* Añade un espacio entre cada elemento de la lista */
+  margin-bottom: 10px; 
 }
 
 .info h2 {
@@ -125,6 +125,5 @@ p{
   }
 
   .main-dp {
-    flex-direction: column; /* Cambia la dirección de los elementos en pantallas pequeñas */
-  }
+    flex-direction: column;
 }
